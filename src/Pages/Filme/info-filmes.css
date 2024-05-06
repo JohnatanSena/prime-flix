@@ -1,0 +1,63 @@
+.filme-details {
+  margin: 0 auto;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  max-width: 900px;
+}
+.movie-title {
+  margin-top: 20px;
+}
+.filme-details  img {
+  width: 900px;
+  max-width: 100%;
+  height: 350px;
+  border-radius: 4px;
+  object-fit: cover;
+}
+.filme-details h3 {
+  margin: 10px 0px
+}
+.sinapse-text {
+  text-align: justify;
+  margin-bottom: 10px
+}
+.release {
+  margin: 10px 0
+}
+.area-buttons {
+  display: flex;
+  gap: 10px;
+  margin: 16px 0;
+}
+.btn-save {
+  background-color:rgb(238, 238, 238);
+  border: none;
+  padding: 10px;
+  font-size: 25px;
+  border-radius: 2px;
+  transition: all 0.5s;
+  cursor: pointer
+}
+.btn-trailer {
+  background-color:rgb(238, 238, 238);
+  border: none;
+  font-size: 25px;
+  border-radius: 2px;
+  cursor: pointer;
+ 
+}
+.btn-trailer a {
+  text-decoration: none;
+  color: black;
+  padding: 10px;
+  transition: all  0.5s;
+}
+.btn-save:hover {
+  color: white;
+  background-color: rgb(119, 0, 0);
+}
+.btn-trailer a:hover {
+  color: white;
+  background-color: rgb(119, 0, 0);
+}
